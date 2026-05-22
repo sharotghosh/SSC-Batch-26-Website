@@ -1,0 +1,20 @@
+{
+  "name": "alumni-portal-backend",
+  "version": "1.0.0",
+  "description": "Backend for Alumni portal with Express and JSON storage",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
